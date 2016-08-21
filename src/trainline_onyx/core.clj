@@ -4,6 +4,7 @@
             [onyx.tasks.core-async :as ca]
             [onyx.tasks.seq :as seq]
             [onyx.plugin.core-async :refer [take-segments! get-core-async-channels]]
+            [onyx.plugin.seq]
             [clojure.core.async :as async]
             [trainline-onyx.catalogs :refer [build-catalog]]
             [trainline-onyx.lifecycles :refer [bind-inputs! build-lifecycles collect-outputs!]]
